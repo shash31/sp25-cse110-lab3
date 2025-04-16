@@ -2,101 +2,173 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Meeting minutes</title>
-    <link rel="icon" href="favicon.ico" />
+    <title>Meeting Minutes</title>
+    <link rel="icon" href="media/favicon.ico" />
   </head>
   <body>
     <header>
+        <h1>LA Lakers Meeting Minutes</h1>
         <nav>
-
+            <ol>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#bulletpoints">Bulletpoints</a></li>
+                <li><a href="#playerinput">Player Input</a></li>
+            </ol>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h1></h1>
-            
-            <img />
+        <div>
+            <h3>Attendance list:</h3>
+            <ul>
+                <li><input type="checkbox" checked/> Lebron James</li>
+                <li><input type="checkbox" checked/> Luka Doncic</li>
+                <li><input type="checkbox" checked/> Austin Reaves</li>
+                <li><input type="checkbox"/> Rui Hachimura</li>
+                <li><input type="checkbox"/> Jaxson Hayes</li>
+                <li><input type="checkbox" checked/> Bronny James</li>
+                <li><input type="checkbox" checked/> JJ Redick</li>
+            </ul>
+        </div>
 
-            <audio></audio>
+        <section id="agenda">
+            <h1>Agenda</h1>
 
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul>
+                <li> Review of and takeaways from film session</li>
+                <li> Prepare for defensive coverage meeting</li>
+                <li> Pointers for scouting and strategy meeting for next road game</li>
+                <li> Schedule recovery focused session with physical therapist</li>
+            </ul>
+
+            <h2>Things that were unfinished from last meeting:</h2>
+            <ol type="a">
+                <li>Finalize on offensive gameplan</li>
+                <li>Meeting with shooting coach</li>
+                <li>Review of mistakes and film from previous game</li>
             </ol>
 
-            <textarea></textarea>
+        </section>
 
+        <hr />
+
+        <section id="bulletpoints">
             <div>
-                <p>
-                    <i></i> 
-                    <em></em> <br />
-                    <b></b>
-                    <strong></strong> <br />
-                    <span> </span> <br />
-
-                </p>
-
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-
-                <a></a>
+                <ul type="disc"> 
+                    <li>
+                        <h3>Review of and takeaways from film session:</h3>
+                        <ul type="square">
+                            <li>Put more <i>effort</i> on transition defense</li>
+                            <li>Make more open shots</li>
+                            <li>More <b>passing</b></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Pointers for next game:</h3>
+                        <ul type="square">
+                            <li><strong>Listen</strong> to coach</li>
+                            <li><strong>Teamwork</strong> is <em>dreamwork</em></li>
+                        </ul>
+                    </li>
 
             </div>
 
+        </section>
+
+        <hr />
+
+        <section id="playerinput">
+            <h3>Player Input</h3>
+
+            <p>
+                <span>Player input is very important</span> as improving the chemistry between the players and coaches is<br />
+                essential for a successful team. Answer these questions
+            </p>
+
             <details>
-                <summary></summary>
+                <summary>Comments or concerns brought up in the meeting:</summary>
+                <p>
+                    Need more involvement and adjustments from defensive coach in game. <br />
+                    In response, the coaching staff will collectively make more of an effort to be more <strong>defensive minded in game</strong>. 
+                </p>
             </details>
 
-            <video></video>
-
             <form>
-                <fieldset>
-                    <legend></legend>
-                    <input type="checkbox"/> <label></label>
-                    <input type="radio"/> <label></label>
-                    <input type="text"/> <label></label>
-                    <input type="date"/> <label></label>
-                </fieldset>
+                <div>
+                    <fieldset>
+                        <legend>If you had to pick what the team needs to focus on, what would you pick?</legend>
+                        <input type="radio"/> Shooting
+                        <input type="radio"/> Defense
+                        <input type="radio"/> Offense
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>What do you believe you want to work on and schedule more workouts centered around? </legend>
+                        <input type="checkbox"/> Shooting
+                        <input type="checkbox"/> Defense
+                        <input type="checkbox"/> Offense
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label>What should the team's workout first prioritize?</label>
+                    <select>
+                        <option value="--Pick an option--">--Pick an option--</option>
+                        <option value="Zone coverage">Zone coverage</option>
+                        <option value="Shooting drills">Shooting drills</option>
+                        <option value="Handles">Handles</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Choose a flavor:</label>
+                    <input list="ice-cream-flavors" />
+                    
+                    <datalist id="ice-cream-flavors">
+                    <option value="Chocolate"></option>
+                    <option value="Coconut"></option>
+                    <option value="Mint"></option>
+                    <option value="Strawberry"></option>
+                    <option value="Vanilla"></option>
+                    </datalist>
+                </div>
+
+                <div id="Questioninput">
+                    <em>Questions or input concerns to address for next time:</em>
+                    <textarea>Enter your thoughts here...</textarea> 
+                </div>                    
+                <div id="name">
+                    <label>Enter name:</label> <input type="text"/>
+                </div>
+                <div id="date">
+                    <label>Enter available date:</label> <input type="date" />
+                </div>
+                <button>Submit</button>
             </form>
 
-            <input />
-            <datalist>
-                <option></option>
-                <option></option>
-                <option></option>
-            </datalist>
-
-            <label></label>
-            <select>
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-
-            <button></button>
-
-        </section>
-        
-        <hr />
-
-        <section>
-            <h2></h2>
-
         </section>
 
         <hr />
 
-        <section>
-            <h3></h3>
+        <div id="image">
+            <img src="media/Lebron.jpg" width="350"/>
+        </div>
 
-        </section>
+        <div id="video">
+            <video controls src="media/mrjames.mp4" height="350"></video>
+        </div>
+
+        <div id="audio">
+            <audio controls src="media/Lebronjames.mp3"></audio>
+        </div>
+
     </main>
-    <footer>
 
+    <footer>
+        <strong>Author:</strong> <i>Shashwat Dudeja</i> <br />
+        <b>Date: </b> 04/16/2025
     </footer>
 
   </body>
